@@ -3,14 +3,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#555500"
     tools:context="chenlian.littleartist.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp750_85"
+        android:background="#FAFAFA" >
+        <ImageView android:layout_width="@dimen/dp750_118"
+            android:layout_height="@dimen/dp750_33"
+            android:layout_marginLeft="@dimen/dp750_22"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/id_iv_tip"
+            android:src="@drawable/index_announce"/>
+
+        <View
+            android:layout_marginLeft="@dimen/dp750_20"
+            android:layout_width="@dimen/dp750_1"
+            android:layout_height="@dimen/dp750_40"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/id_iv_tip"
+            android:id="@+id/id_v_spliter"
+            android:background="#bbbbbb"/>
+
+        <View
+            android:layout_marginLeft="@dimen/dp750_20"
+            android:layout_width="@dimen/dp750_10"
+            android:layout_height="@dimen/dp750_10"
+            android:layout_centerVertical="true"
+            android:id="@+id/id_v_read_point"
+            android:layout_toRightOf="@id/id_v_spliter"
+            android:background="@drawable/cricle_right_red"/>
+
+        <aijieli.androidui.widget.AutoTextView
+            android:id="@+id/id_autotextview_gonggao"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp750_20"
+            android:layout_toRightOf="@id/id_v_read_point"
+            android:layout_width="@dimen/dp750_518"
+            android:layout_height="@dimen/dp750_33"
+            />
+
+    </RelativeLayout>
+
+
 </RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myimageview="chenlian.littleartist"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1300dip"
+    tools:context="aijieli.androidui.LoginActivity">
+    <ImageView
+
+        android:id="@+id/id_myiv"
+        android:layout_width="300dip"
+        android:layout_height="1300dip"
+        android:src="@drawable/icon_discount_coupon"></ImageView>
+</RelativeLayout>

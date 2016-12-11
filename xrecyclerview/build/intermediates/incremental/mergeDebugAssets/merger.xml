@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/chenlian/Documents/mygitlab/ehome/xrecyclerview/src/main/assets"/><source path="/Users/chenlian/Documents/mygitlab/ehome/xrecyclerview/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/chenlian/Documents/mygitlab/ehome/xrecyclerview/src/debug/assets"/></dataSet></merger>
